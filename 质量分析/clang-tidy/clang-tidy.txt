@@ -1,0 +1,50 @@
+Error while trying to load a compilation database:
+Could not auto-detect compilation database for file "sudo.cpp"
+No compilation database found in /home/juruo/software or any parent directory
+fixed-compilation-database: Error while opening fixed database: No such file or directory
+json-compilation-database: Error while opening JSON database: No such file or directory
+Running without flags.
+100 warnings generated.
+/home/juruo/software/sudo.cpp:321:15: warning: 'signed char' to 'int' conversion; consider casting to 'unsigned char' first. [bugprone-signed-char-misuse]
+        opt = static_cast<char>(opt);
+              ^
+/home/juruo/software/sudo.cpp:328:25: warning: illegal character encoding in string literal [clang-diagnostic-invalid-source-encoding]
+                printf("<C9><FA><B3><C9><CA><FD><B6><C0><D6><D5><C5><CC><CA><FD><C1><BF><B7><B6>Χ<D4><DA>1~1000000֮<BC><E4>\n");
+                        ^
+/home/juruo/software/sudo.cpp:344:25: warning: illegal character encoding in string literal [clang-diagnostic-invalid-source-encoding]
+                printf("<C9><FA><B3><C9><CA><FD><B6><C0><D3><CE>Ϸ<CA><FD><C1><BF><B7><B6>Χ<D4><DA>1~10000֮<BC><E4>\n");
+                        ^
+/home/juruo/software/sudo.cpp:352:25: warning: illegal character encoding in string literal [clang-diagnostic-invalid-source-encoding]
+                printf("<C9><FA><B3><C9><D3><CE>Ϸ<C4>Ѷȵķ<B6>Χ<D4><DA>1~3֮<BC><E4>\n");
+                        ^
+/home/juruo/software/sudo.cpp:356:25: warning: illegal character encoding in string literal [clang-diagnostic-invalid-source-encoding]
+                printf("<B2><CE><CA><FD>m<B1><D8><D0><EB><D3><EB><B2><CE><CA><FD>nһ<C6><F0>ʹ<D3><C3>\n");
+                        ^
+/home/juruo/software/sudo.cpp:370:25: warning: illegal character encoding in string literal [clang-diagnostic-invalid-source-encoding]
+                printf("<C7><EB><CA><E4><C8><EB>һ<B8><F6><B7><B6>Χ<B2><CE><CA><FD>\n");
+                        ^
+/home/juruo/software/sudo.cpp:375:25: warning: illegal character encoding in string literal [clang-diagnostic-invalid-source-encoding]
+                printf("<C7><EB><CA><E4><C8><EB><BA>Ϸ<A8><B7><B6>Χ20~55\n");
+                        ^
+/home/juruo/software/sudo.cpp:379:25: warning: illegal character encoding in string literal [clang-diagnostic-invalid-source-encoding]
+                printf("<B2><CE><CA><FD>r<B1><D8><D0><EB><D3><EB><B2><CE><CA><FD>nһ<C6><F0>ʹ<D3><C3>\n");
+                        ^
+/home/juruo/software/sudo.cpp:386:25: warning: illegal character encoding in string literal [clang-diagnostic-invalid-source-encoding]
+                printf("<B2><CE><CA><FD>u<B1><D8><D0><EB><D3><EB><B2><CE><CA><FD>nһ<C6><F0>ʹ<D3><C3>\n");
+                        ^
+/home/juruo/software/sudo.cpp:391:21: warning: illegal character encoding in string literal [clang-diagnostic-invalid-source-encoding]
+            printf("<C7><EB><CA><E4><C8><EB><BA>Ϸ<A8><B2><CE><CA><FD>\n");
+                    ^
+Suppressed 90 warnings (90 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+
+
+
+
+
+
+
+
+
+
